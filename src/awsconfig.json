@@ -1,0 +1,24 @@
+{
+    "Auth": {
+      "region": "ap-southeast-1",
+      "userPoolId": "ap-southeast-1_bq60a8TXN",
+      "userPoolWebClientId": "7cbadeg9nhkvotba87ff1dau64",
+      "mandatorySignIn": false,
+      "cookieStorage": {
+        "domain": "localhost",
+        "path": "/",
+        "expires": 365,
+        "secure": true
+      },
+      "redirectSignIn": "https://localhost:3000",
+      "redirectSignOut": "https://localhost:3000/logout"
+    },
+    "API": {
+      "endpoints": [
+        {
+          "name": "demo",
+          "endpoint": "https://localhost:3000/demo"
+        }
+      ]
+    }
+  }
