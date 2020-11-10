@@ -1,0 +1,23 @@
+{
+    "Auth": {
+      "region": "ap-southeast-1",
+      "userPoolId": "ap-southeast-1_bq60a8TXN",
+      "userPoolWebClientId": "7cbadeg9nhkvotba87ff1dau64",
+      "mandatorySignIn": false,
+      "redirectSignIn": "https://localhost:3000",
+      "redirectSignOut": "https://localhost:3000/logout",
+      "oauth":{
+        "domain": "azuria-dev.auth.ap-southeast-1.amazoncognito.com",
+        "scope": [
+          "phone",
+          "email",
+          "profile",
+          "openid",
+          "aws.cognito.signin.user.admin"
+        ],
+        "redirectSignIn": "http://localhost:3000/",
+        "redirectSignOut": "http://localhost:3000/logout",
+        "responseType": "token"
+      }
+    }    
+  }
